@@ -5,63 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <title>Portfolio</title>
 </head>
 
 <body>
-    <header id="header">
+    <div class="wrapper">
+        <header>
 
-        <nav class="menu">
-            <div id="inicio" class="name">
-                <h1>Portfolio</h1>
+            <div class="nav_top">
+                <div class="container row">
+                    <div class="logo">
+                        <p>JONATHAN</p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#about">SOBRE MI</a>
+                                <a href="#">EXPERIENCIA</a>
+                                <a href="#">EDUCACION</a>
+                                <a href="#">CERTIFICACIONES</a>
+                                <a href="#">APTITUDES</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
             </div>
-            <ul>
-                <li><a href="#about">sobre mi</a></li>
-                <li><a href="#habilidades">habilidades</a></li>
-                <li><a href="#">certificados</a></li>
-                <li><a href="#">contacto</a></li>
-            </ul>
-        </nav>
-        <div class="home">
-            <div id="about" class="about">
 
+
+
+
+        </header>
+        <main>
+            <div id="about" class="container row">
                 <div class="contenido">
-                    <p>Hola soy <div class="resaltado">Jonathan</div>
-                    </p>
-                    <p class="sub1">Estudiante de Full Stack</p>
-                    <br>
-                    <p class="sub2">Soy una persona activa, con empatía y proactivo, me gusta trabajar en equipo.
-                        Con ganas de seguir aprendiendo y formándome en la rama de Desarrollo WEB.</p>
-                        <p class="sub2">Desde el Desarrollo de paginas con Front-end, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JAVASCRIPT</strong>
-                        Hasta el desarrollo de Back-end.
-                        </p>
+                    <h1>Soy Jonathan Lopez Full Stack Developer</h1>
+                    <hr noshade="noshade">
+                    <div class="texto">
+                        <p>Tengo experiencia como Técnico de Sistemas, pero actualmente estoy estudiando un Bootcamp de
+                            <strong>
+                                Full Stack </strong>en NEOLAND.
+                            Siempre tengo ganas de seguir aprendiendo.
+                            Es por eso que decidí estudiar otra rama de la Informática y telecomunicaciones como es la
+                            de
+                            Programación WEB.
+                            Desarrollándome tanto como en el ámbito de Front-end como en el de Back-end.
+
+                            Soy una persona muy inquieta y siempre activa, con empatía y proactivo.
+                            Con actitud y aptitud frente a cualquier actividad o función.
+                            Creo que trabajar en equipo, es una de las herramientas mas útiles a la hora de desarrollar
+                            algo
+                            en
+                            concreto.</p>
+                    </div>
                 </div>
+
                 <div class="foto">
-
-
+                    <img src="img/yo.png" alt="Foto de perfil">
                 </div>
             </div>
-        </div>
-    </header>
-    <article >
-        <div class="lateral" id="habilidades">
-            <ul>
-               <li><a href="">Administración de Windows</a></li>
-              <div class="barra"><span></span></div>
-               <li><a href="">Administración de linux/ubuntu</a></li>
-               <li><a href="">Administración de servidores</a></li>
-               <li><a href="">Docker</a></li>
-               <li><a href="">Active directory</a></li>
-            </ul>
-           
-        </div>
-        </div>
 
-    </article>
-    <footer>
 
-    </footer>
+
+        </main>
+        <footer>
+
+
+
+
+        </footer>
+    </div>
 </body>
 
 </html>
